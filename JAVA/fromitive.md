@@ -1,5 +1,5 @@
 **Java 코드는 어떤 과정으로 실행되는가?**
-* `.java` 파일을 `javac` 명령어로 컴파일 하여 `.class`파일로 만든다.
+*  `.java` 파일을 `javac` 명령어로 컴파일 하여 `.class`파일로 만든다.
 * `.class`파일을 `java` 명령어로 실행한다. 내부엔 `.class` 안의 바이트 코드는 JVM 실행 엔진이 해석하여 코드를 실행한다.
 * 자주 실행하는 명령어는 실행엔진 안의  JIT가 코드를 실행하고, 나머지는 인터프리터가 해석한 후 실행한다. 
 
@@ -44,6 +44,9 @@ Shenandoah(셰넌도어) GC: 모던 GC.. 초저지연을 목표로 둠 G1과 유
 	* 구현체가 존재하지 않기 때문?
 * 추상 클래스는 일부분이 구현되어 있고 나머지는 상속 받아 구현해야 함
 
+* 추상 클래스: 타입 추상화 (사람, 동물)
+* 인터페이스: 행위 추상화 (동물 밥을먹는다)
+
 **SOLID**
 * 단일 책임 원칙
 * 개방 폐쇄의 원칙: 구조는 닫혀있고 확장에는 열려있어야 한다.
@@ -65,3 +68,46 @@ Shenandoah(셰넌도어) GC: 모던 GC.. 초저지연을 목표로 둠 G1과 유
 ### References
 
 https://medium.com/nerd-for-tech/java-virtual-machine-jvm-architecture-87b5bdd47403
+
+
+
+[운영체제]
+
+
+
+
+[Spring]
+
+Spring vs Springboot
+
+Spring에서의 IOC
+
+DI
+
+Bean이 뭐냐
+
+스프링 Bean의 생명 주기
+
+스프링 Bean Scope
+
+@Component vs @Bean
+
+그럼 @Bean은 항상 @Component 가 붙은 클래스 내에서만 사용해야 하는가?
+
+Spring Web MVC 구조
+
+Servlet
+
+Servlet Container
+
+Spring Web MVC의 Servlet 활용
+
+프론트 컨트롤러 패턴?
+
+Servlet Filter vs Spring Interceptor
+
+Filter는 어떻게 Bean으로 등록되나?
+
+AOP와 프록시
+
+Tomcat의 구성요소
