@@ -52,15 +52,15 @@ MySQL에서는 Repeatable Read에서 Phantom Read가 발생하지 않는다. MyS
 - 1정규화: 한 개의 레코드에는 한 개의 값만 가지도록 하는 것    
 - 2정규화: 기본 키의 부분집합이 결정자가 되지 않도록 분해하는 것
     
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1430a828-8bfa-4acb-bfb9-0585b0e739c2/7946858c-240f-4fa0-a89a-1b0068d5081d/image.png)
+![image](https://github.com/user-attachments/assets/6c22c9bc-c0d7-4d4a-9231-3567e805a3b4)
     
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1430a828-8bfa-4acb-bfb9-0585b0e739c2/4cd0f152-9140-4211-bac5-93c79dc16cb9/image.png)
+![image](https://github.com/user-attachments/assets/62f8fca6-13fb-4041-a094-893d7183a7f7)
     
 - 3정규화: A → B, B → C 일 때 A → C가 아니도록 하는 것
     
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1430a828-8bfa-4acb-bfb9-0585b0e739c2/d1ddd54b-8355-4987-b394-90c050d27833/image.png)
+![image](https://github.com/user-attachments/assets/04006e59-f1f9-4e50-b40f-7d4e87ca2a29)
     
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1430a828-8bfa-4acb-bfb9-0585b0e739c2/cfa02b56-b51f-4063-ba8a-ad603ccb41ee/image.png)
+![image](https://github.com/user-attachments/assets/bbd401f8-eb17-4d96-b7c6-2b66e625fa1c)
     
 ### Join이란?
     
